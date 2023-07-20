@@ -1,1 +1,1 @@
-50 horas investidas com estudos e desenvolvimento em um banco de dados completo garantindo nota máxima no trabalho final.
+Banco de dados para loja de materiais de contrução.
