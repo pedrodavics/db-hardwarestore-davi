@@ -1,7 +1,7 @@
 CREATE DATABASE LOJA_CONSTRUCAO
 USE LOJA_CONSTRUCAO
 
--- criaÁ„o das tabelas
+-- cria√ß√£o das tabelas
 
 CREATE TABLE CLIENTES (
 ID_CLIENTE INT PRIMARY KEY NOT NULL, 
@@ -83,7 +83,7 @@ INSERT INTO CLIENTES VALUES
 (4163, 'Carlos Ferreira', '948.276.641-85', 'Masculino', '1990-03-19', 'carlos.ferreira@exemplo.com', '(21) 98192-2737', 'Rua Joao Pessoa, 234', 'Rio de Janeiro', 'RJ'),
 (2198, 'Julia Oliveira', '321.501.447-44', 'Feminino', '1985-11-11', 'julia.oliveira@exemplo.com', '(48) 99872-1836', 'Rua das Margaridas, 456', 'Florianopolis', 'SC'),
 (5610, 'Luiz Santos', '284.928.870-09', 'Masculino', '1978-05-17', 'luiz.santos@exemplo.com', '(81) 99210-3847', 'Rua dos Ipes, 789', 'Recife', 'PE'),
-(1234, 'Mariana Souza', '907.439.048-17', 'Feminino', '1995-02-21', 'mariana.souza@exemplo.com', '(27) 99654-1290', 'Rua das Palmeiras, 567', 'VitÛria', 'ES'),
+(1234, 'Mariana Souza', '907.439.048-17', 'Feminino', '1995-02-21', 'mariana.souza@exemplo.com', '(27) 99654-1290', 'Rua das Palmeiras, 567', 'Vit√≥ria', 'ES'),
 (8745, 'Pedro Alves', '135.985.947-35', 'Masculino', '1982-09-07', 'pedro.alves@exemplo.com', '(31) 98765-4321', 'Avenida Brasil, 789', 'Belo Horizonte', 'MG'),
 (9802, 'Sofia Lima', '525.273.586-53', 'Feminino', '1973-12-28', 'sofia.lima@exemplo.com', '(41) 98173-6271', 'Rua das Oliveiras, 345', 'Curitiba', 'PR'),
 (3412, 'Tomas Castro', '077.640.816-22', 'Masculino', '1999-07-12', 'tomas.castro@exemplo.com', '(51) 99678-4930', 'Rua das Acacias, 678', 'Porto Alegre', 'RS'),
@@ -113,21 +113,21 @@ INSERT INTO FORNECEDORES VALUES
 (1001, 'Casa do Construtor', '12.345.678/0001-90', 'casadoconstrutor@exemplo.com.br', '(11) 1234-5678', 'Rua das Flores, 123', 'Sao Paulo', 'SP'),
 (1002, 'Construpack', '98.765.432/0001-21', 'construpack@exemplo.com.br', '(21) 9876-5432', 'Avenida das Palmeiras, 456', 'Rio de Janeiro', 'RJ'),
 (1003, 'Materiais Novos', '43.210.987/0001-65', 'materiaisnovos@exemplo.com.br', '(19) 4321-0987', 'Rua das Arvores, 789', 'Campinas', 'SP'),
-(1004, 'Casa da ConstruÁ„o', '56.789.123/0001-34', 'casadaconstrucao@exemplo.com.br', '(31) 5678-9123', 'Avenida das Flores, 321', 'Belo Horizonte', 'MG'),
+(1004, 'Casa da Constru√ß√£o', '56.789.123/0001-34', 'casadaconstrucao@exemplo.com.br', '(31) 5678-9123', 'Avenida das Flores, 321', 'Belo Horizonte', 'MG'),
 (1005, 'Construmax', '87.654.321/0001-98', 'construmax@exemplo.com.br', '(85) 8765-4321', 'Rua das Pedras, 456', 'Fortaleza', 'CE'),
 (1006, 'Comercial Materiais', '23.456.789/0001-12', 'comercialmateriais@exemplo.com.br', '(81) 2345-6789', 'Avenida das Arvores, 789', 'Recife', 'PE'),
 (1007, 'Construir', '34.567.890/0001-56', 'construir@exemplo.com.br', '(41) 3456-7890', 'Rua das Pedras, 987', 'Curitiba', 'PR'),
 (1008, 'Materiais de Obras', '45.678.901/0001-23', 'materiaisdeobras@exemplo.com.br', '(62) 4567-8901', 'Avenida das Flores, 654', 'Goiania', 'GO'),
-(1009, 'Construlight', '67.890.123/0001-45', 'construlight@exemplo.com.br', '(98) 6789-0123', 'Rua das Pedras, 321', 'S„o Luis', 'MA'),
+(1009, 'Construlight', '67.890.123/0001-45', 'construlight@exemplo.com.br', '(98) 6789-0123', 'Rua das Pedras, 321', 'S√£o Luis', 'MA'),
 (1010, 'Mega Construcoes', '89.012.345/0001-67', 'megaconstrucoes@exemplo.com.br', '(67) 8901-2345', 'Avenida das Arvores, 456', 'Campo Grande', 'MS'),
 (1011, 'Materiais Express', '32.109.876/0001-78', 'materiaisexpress@exemplo.com.br', '(31) 9012-3456', 'Rua das Oliveiras, 987', 'Belo Horizonte', 'MG'),
-(1012, 'Construlider', '78.901.234/0001-56', 'construlider@exemplo.com.br', '(11) 2345-6789', 'Avenida dos GirassÛis, 123', 'S„o Paulo', 'SP'),
-(1013, 'Comercial ConstruÁ„o', '67.123.456/0001-90', 'comercialconstrucao@exemplo.com.br', '(41) 8765-4321', 'Rua das Palmeiras, 654', 'Curitiba', 'PR'),
+(1012, 'Construlider', '78.901.234/0001-56', 'construlider@exemplo.com.br', '(11) 2345-6789', 'Avenida dos Girass√≥is, 123', 'S√£o Paulo', 'SP'),
+(1013, 'Comercial Constru√ß√£o', '67.123.456/0001-90', 'comercialconstrucao@exemplo.com.br', '(41) 8765-4321', 'Rua das Palmeiras, 654', 'Curitiba', 'PR'),
 (1014, 'Materiais de Qualidade', '90.876.543/0001-21', 'materiaisqualidade@exemplo.com.br', '(21) 3456-7890', 'Avenida das Flores, 789', 'Rio de Janeiro', 'RJ'),
-(1015, 'Construbras', '45.678.901/0001-34', 'construbras@exemplo.com.br', '(81) 6543-2109', 'Rua dos LÌrios, 321', 'Recife', 'PE'),
-(1016, 'Materiais Modernos', '89.012.345/0001-67', 'materiaismodernos@exemplo.com.br', '(48) 9012-3456', 'Avenida das Ac·cias, 987', 'FlorianÛpolis', 'SC'),
+(1015, 'Construbras', '45.678.901/0001-34', 'construbras@exemplo.com.br', '(81) 6543-2109', 'Rua dos L√≠rios, 321', 'Recife', 'PE'),
+(1016, 'Materiais Modernos', '89.012.345/0001-67', 'materiaismodernos@exemplo.com.br', '(48) 9012-3456', 'Avenida das Ac√°cias, 987', 'Florian√≥polis', 'SC'),
 (1017, 'Construcenter', '21.345.678/0001-90', 'construcenter@exemplo.com.br', '(31) 5432-1098', 'Rua das Pedras, 456', 'Belo Horizonte', 'MG'),
-(1018, 'Materiais Confi·veis', '56.789.012/0001-23', 'materiaisconfiaveis@exemplo.com.br', '(11) 7890-1234', 'Avenida dos Pinheiros, 654', 'S„o Paulo', 'SP'),
+(1018, 'Materiais Confi√°veis', '56.789.012/0001-23', 'materiaisconfiaveis@exemplo.com.br', '(11) 7890-1234', 'Avenida dos Pinheiros, 654', 'S√£o Paulo', 'SP'),
 (1019, 'Construvip', '12.345.678/0001-56', 'construvip@exemplo.com.br', '(21) 9012-3456', 'Rua das Flores, 987', 'Rio de Janeiro', 'RJ'),
 (1020, 'Materiais Essenciais', '87.654.321/0001-89', 'materiaisessenciais@exemplo.com.br', '(81) 4321-0987', 'Avenida das Palmeiras, 123', 'Recife', 'PE')
 
@@ -135,24 +135,24 @@ INSERT INTO FORNECEDORES VALUES
 INSERT INTO PRODUTOS VALUES
 (2001, 'Tijolo', 1001, 2.50, '20x10x5cm', 0.50),
 (2002, 'Cimento', 1002, 50.00, '40x30x20cm', 25.00),
-(2003, 'Areia', 1003, 100.00, '1m≥', 80.00),
-(2004, 'Telha', 1004, 3.00, '2m≤', 15.00),
+(2003, 'Areia', 1003, 100.00, '1m¬≥', 80.00),
+(2004, 'Telha', 1004, 3.00, '2m¬≤', 15.00),
 (2005, 'Tinta', 1005, 10.00, '3,6L', 50.00),
 (2006, 'Argamassa', 1006, 25.00, '20kg', 30.00),
 (2007, 'Prego', 1007, 0.10, '2cm', 0.01),
 (2008, 'Ferro', 1008, 200.00, '10m', 500.00),
 (2009, 'Madeira', 1009, 150.00, '3m', 200.00),
-(2010, 'Vidro', 1010, 30.00, '1m≤', 100.00),
+(2010, 'Vidro', 1010, 30.00, '1m¬≤', 100.00),
 (2011, 'Tijolo Furado', 1011, 2.70, '20x10x5cm', 0.60),
 (2012, 'Cimento Branco', 1012, 50.00, '40x30x20cm', 30.00),
-(2013, 'Areia Lavada', 1013, 100.00, '1m≥', 90.00),
-(2014, 'Telha Esmaltada', 1014, 3.20, '2m≤', 18.00),
-(2015, 'Tinta AcrÌlica', 1015, 10.00, '3,6L', 60.00),
+(2013, 'Areia Lavada', 1013, 100.00, '1m¬≥', 90.00),
+(2014, 'Telha Esmaltada', 1014, 3.20, '2m¬≤', 18.00),
+(2015, 'Tinta Acr√≠lica', 1015, 10.00, '3,6L', 60.00),
 (2016, 'Argamassa Colante', 1016, 25.00, '20kg', 35.00),
 (2017, 'Prego Galvanizado', 1017, 0.12, '2.5cm', 0.02),
 (2018, 'Ferro Galvanizado', 1018, 200.00, '12m', 600.00),
 (2019, 'Madeira de Lei', 1019, 150.00, '4m', 250.00),
-(2020, 'Vidro Temperado', 1020, 30.00, '1.5m≤', 120.00)
+(2020, 'Vidro Temperado', 1020, 30.00, '1.5m¬≤', 120.00)
 
 INSERT INTO MOTORISTAS VALUES
 (5671, 'Rafael Mendes', '(11) 1234-5678', '183.486.129-00', 'Transportadora Rapida', 'Caminhao'),
@@ -539,11 +539,11 @@ INSERT INTO ENTREGAS VALUES
 (66733,'11/01/2022',3901,'Rua das Azaleias, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202209),
 (66734,'12/01/2022',4163,'Rua Joao Pessoa, 234',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202210),
 (66735,'13/01/2022',4567,'Avenida das Palmeiras, 678',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202211),
-(66736,'14/01/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202212),
+(66736,'14/01/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202212),
 (66737,'15/01/2022',5432,'Avenida Sete de Setembro, 456',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202213),
 (66738,'16/01/2022',5609,'Rua das Rosas, 789',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202214),
-(66739,'17/01/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202215),
-(66740,'18/01/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202216),
+(66739,'17/01/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202215),
+(66740,'18/01/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202216),
 (66741,'19/01/2022',6780,'Avenida Ipanema, 678',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202217),
 (66742,'20/01/2022',6789,'Avenida Copacabana, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202218),
 (66743,'21/01/2022',7012,'Rua das Flores, 123',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202219),
@@ -559,11 +559,11 @@ INSERT INTO ENTREGAS VALUES
 (66753,'31/01/2022',1234,'Rua das Palmeiras, 567',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202229),
 (66754,'01/02/2022',1452,'Rua da Bahia, 456',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202230),
 (66755,'02/02/2022',1890,'Rua dos Lirios, 456',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202231),
-(66756,'03/02/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202232),
+(66756,'03/02/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202232),
 (66757,'04/02/2022',2345,'Rua das Violetas, 789',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202233),
 (66758,'05/02/2022',3201,'Rua dos Jasmins, 678',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202234),
-(66759,'06/02/2022',3412,'Rua das Acacias, 678',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202235),
-(66760,'07/02/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202236),
+(66759,'06/02/2022',3412,'Rua das Acacias, 678',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202235),
+(66760,'07/02/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202236),
 (66761,'08/02/2022',3901,'Rua das Azaleias, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202237),
 (66762,'09/02/2022',4163,'Rua Joao Pessoa, 234',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202238),
 (66763,'10/02/2022',4567,'Avenida das Palmeiras, 678',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202239),
@@ -579,11 +579,11 @@ INSERT INTO ENTREGAS VALUES
 (66773,'20/02/2022',7890,'Rua dos Cravos, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202249),
 (66774,'21/02/2022',7896,'Rua das Palmas, 123',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202250),
 (66775,'22/02/2022',8265,'Rua das Orquideas, 123',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202251),
-(66776,'23/02/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202252),
+(66776,'23/02/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202252),
 (66777,'24/02/2022',8765,'Rua das Hortensias, 123',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202253),
 (66778,'25/02/2022',9802,'Rua das Oliveiras, 345',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202254),
-(66779,'26/02/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202255),
-(66780,'27/02/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202256),
+(66779,'26/02/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202255),
+(66780,'27/02/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202256),
 (66781,'28/02/2022',1234,'Rua das Palmeiras, 567',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202257),
 (66782,'01/03/2022',1452,'Rua da Bahia, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202258),
 (66783,'02/03/2022',1890,'Rua dos Lirios, 456',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202259),
@@ -599,11 +599,11 @@ INSERT INTO ENTREGAS VALUES
 (66793,'12/03/2022',5432,'Avenida Sete de Setembro, 456',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202269),
 (66794,'13/03/2022',5609,'Rua das Rosas, 789',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202270),
 (66795,'14/03/2022',5610,'Rua dos Ipes, 789',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202271),
-(66796,'15/03/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202272),
+(66796,'15/03/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202272),
 (66797,'16/03/2022',6780,'Avenida Ipanema, 678',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202273),
 (66798,'17/03/2022',6789,'Avenida Copacabana, 456',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202274),
-(66799,'18/03/2022',7012,'Rua das Flores, 123',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202275),
-(66800,'19/03/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202276),
+(66799,'18/03/2022',7012,'Rua das Flores, 123',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202275),
+(66800,'19/03/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202276),
 (66801,'20/03/2022',7890,'Rua dos Cravos, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202277),
 (66802,'21/03/2022',7896,'Rua das Palmas, 123',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202278),
 (66803,'22/03/2022',8265,'Rua das Orquideas, 123',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202279),
@@ -619,11 +619,11 @@ INSERT INTO ENTREGAS VALUES
 (66813,'01/04/2022',2345,'Rua das Violetas, 789',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202289),
 (66814,'02/04/2022',3201,'Rua dos Jasmins, 678',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202290),
 (66815,'03/04/2022',3412,'Rua das Acacias, 678',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202291),
-(66816,'04/04/2022',3456,'Rua das Azaleias, 234',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202292),
+(66816,'04/04/2022',3456,'Rua das Azaleias, 234',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202292),
 (66817,'05/04/2022',3901,'Rua das Azaleias, 234',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202293),
 (66818,'06/04/2022',4163,'Rua Joao Pessoa, 234',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202294),
-(66819,'07/04/2022',4567,'Avenida das Palmeiras, 678',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202295),
-(66820,'08/04/2022',4823,'Avenida Beira-Mar, 456',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202296),
+(66819,'07/04/2022',4567,'Avenida das Palmeiras, 678',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202295),
+(66820,'08/04/2022',4823,'Avenida Beira-Mar, 456',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202296),
 (66821,'09/04/2022',5432,'Avenida Sete de Setembro, 456',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202297),
 (66822,'10/04/2022',5609,'Rua das Rosas, 789',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202298),
 (66823,'11/04/2022',5610,'Rua dos Ipes, 789',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202299),
@@ -639,11 +639,11 @@ INSERT INTO ENTREGAS VALUES
 (66833,'21/04/2022',8765,'Rua das Hortensias, 123',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202309),
 (66834,'22/04/2022',9802,'Rua das Oliveiras, 345',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202310),
 (66835,'23/04/2022',9870,'Rua das Tulipas, 789',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202311),
-(66836,'24/04/2022',9876,'Rua das Margaridas, 123',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202312),
+(66836,'24/04/2022',9876,'Rua das Margaridas, 123',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202312),
 (66837,'25/04/2022',1234,'Rua das Palmeiras, 567',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202313),
 (66838,'26/04/2022',1452,'Rua da Bahia, 456',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202314),
-(66839,'27/04/2022',1890,'Rua dos Lirios, 456',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202315),
-(66840,'28/04/2022',2198,'Rua das Margaridas, 456',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202316),
+(66839,'27/04/2022',1890,'Rua dos Lirios, 456',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202315),
+(66840,'28/04/2022',2198,'Rua das Margaridas, 456',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202316),
 (66841,'29/04/2022',2345,'Rua das Violetas, 789',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202317),
 (66842,'30/04/2022',3201,'Rua dos Jasmins, 678',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202318),
 (66843,'01/05/2022',3412,'Rua das Acacias, 678',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202319),
@@ -659,11 +659,11 @@ INSERT INTO ENTREGAS VALUES
 (66853,'11/05/2022',6780,'Avenida Ipanema, 678',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202329),
 (66854,'12/05/2022',6789,'Avenida Copacabana, 456',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202330),
 (66855,'13/05/2022',7012,'Rua das Flores, 123',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202331),
-(66856,'14/05/2022',7210,'Avenida Atlantica, 123',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202332),
+(66856,'14/05/2022',7210,'Avenida Atlantica, 123',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202332),
 (66857,'15/05/2022',7890,'Rua dos Cravos, 234',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202333),
 (66858,'16/05/2022',7896,'Rua das Palmas, 123',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202334),
-(66859,'17/05/2022',8265,'Rua das Orquideas, 123',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202335),
-(66860,'18/05/2022',8745,'Avenida Brasil, 789',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202336),
+(66859,'17/05/2022',8265,'Rua das Orquideas, 123',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202335),
+(66860,'18/05/2022',8745,'Avenida Brasil, 789',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202336),
 (66861,'19/05/2022',8765,'Rua das Hortensias, 123',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202337),
 (66862,'20/05/2022',9802,'Rua das Oliveiras, 345',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202338),
 (66863,'21/05/2022',9870,'Rua das Tulipas, 789',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202339),
@@ -679,11 +679,11 @@ INSERT INTO ENTREGAS VALUES
 (66873,'31/05/2022',3901,'Rua das Azaleias, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202349),
 (66874,'01/06/2022',4163,'Rua Joao Pessoa, 234',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202350),
 (66875,'02/06/2022',4567,'Avenida das Palmeiras, 678',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202351),
-(66876,'03/06/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202352),
+(66876,'03/06/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202352),
 (66877,'04/06/2022',5432,'Avenida Sete de Setembro, 456',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202353),
 (66878,'05/06/2022',5609,'Rua das Rosas, 789',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202354),
-(66879,'06/06/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202355),
-(66880,'07/06/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202356),
+(66879,'06/06/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202355),
+(66880,'07/06/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202356),
 (66881,'08/06/2022',6780,'Avenida Ipanema, 678',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202357),
 (66882,'09/06/2022',6789,'Avenida Copacabana, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202358),
 (66883,'10/06/2022',7012,'Rua das Flores, 123',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202359),
@@ -699,11 +699,11 @@ INSERT INTO ENTREGAS VALUES
 (66893,'20/06/2022',1234,'Rua das Palmeiras, 567',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202369),
 (66894,'21/06/2022',1452,'Rua da Bahia, 456',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202370),
 (66895,'22/06/2022',1890,'Rua dos Lirios, 456',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202371),
-(66896,'23/06/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202372),
+(66896,'23/06/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202372),
 (66897,'24/06/2022',2345,'Rua das Violetas, 789',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202373),
 (66898,'25/06/2022',3201,'Rua dos Jasmins, 678',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202374),
-(66899,'26/06/2022',3412,'Rua das Acacias, 678',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202375),
-(66900,'27/06/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202376),
+(66899,'26/06/2022',3412,'Rua das Acacias, 678',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202375),
+(66900,'27/06/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202376),
 (66901,'28/06/2022',3901,'Rua das Azaleias, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202377),
 (66902,'29/06/2022',4163,'Rua Joao Pessoa, 234',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202378),
 (66903,'30/06/2022',4567,'Avenida das Palmeiras, 678',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202379),
@@ -719,11 +719,11 @@ INSERT INTO ENTREGAS VALUES
 (66913,'10/07/2022',7890,'Rua dos Cravos, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202389),
 (66914,'11/07/2022',7896,'Rua das Palmas, 123',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202390),
 (66915,'12/07/2022',8265,'Rua das Orquideas, 123',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202391),
-(66916,'13/07/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202392),
+(66916,'13/07/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202392),
 (66917,'14/07/2022',8765,'Rua das Hortensias, 123',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202393),
 (66918,'15/07/2022',9802,'Rua das Oliveiras, 345',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202394),
-(66919,'16/07/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202395),
-(66920,'17/07/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202396),
+(66919,'16/07/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202395),
+(66920,'17/07/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202396),
 (66921,'18/07/2022',1234,'Rua das Palmeiras, 567',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202397),
 (66922,'19/07/2022',1452,'Rua da Bahia, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202398),
 (66923,'20/07/2022',1890,'Rua dos Lirios, 456',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202399),
@@ -739,11 +739,11 @@ INSERT INTO ENTREGAS VALUES
 (66933,'30/07/2022',5432,'Avenida Sete de Setembro, 456',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202409),
 (66934,'31/07/2022',5609,'Rua das Rosas, 789',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202410),
 (66935,'01/08/2022',5610,'Rua dos Ipes, 789',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202411),
-(66936,'02/08/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202412),
+(66936,'02/08/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202412),
 (66937,'03/08/2022',6780,'Avenida Ipanema, 678',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202413),
 (66938,'04/08/2022',6789,'Avenida Copacabana, 456',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202414),
-(66939,'05/08/2022',7012,'Rua das Flores, 123',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202415),
-(66940,'06/08/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202416),
+(66939,'05/08/2022',7012,'Rua das Flores, 123',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202415),
+(66940,'06/08/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202416),
 (66941,'07/08/2022',7890,'Rua dos Cravos, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202417),
 (66942,'08/08/2022',7896,'Rua das Palmas, 123',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202418),
 (66943,'09/08/2022',8265,'Rua das Orquideas, 123',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202419),
@@ -759,11 +759,11 @@ INSERT INTO ENTREGAS VALUES
 (66953,'19/08/2022',2345,'Rua das Violetas, 789',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202429),
 (66954,'20/08/2022',3201,'Rua dos Jasmins, 678',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202430),
 (66955,'21/08/2022',3412,'Rua das Acacias, 678',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202431),
-(66956,'22/08/2022',3456,'Rua das Azaleias, 234',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202432),
+(66956,'22/08/2022',3456,'Rua das Azaleias, 234',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202432),
 (66957,'23/08/2022',3901,'Rua das Azaleias, 234',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202433),
 (66958,'24/08/2022',4163,'Rua Joao Pessoa, 234',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202434),
-(66959,'25/08/2022',4567,'Avenida das Palmeiras, 678',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202435),
-(66960,'26/08/2022',4823,'Avenida Beira-Mar, 456',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202436),
+(66959,'25/08/2022',4567,'Avenida das Palmeiras, 678',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202435),
+(66960,'26/08/2022',4823,'Avenida Beira-Mar, 456',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202436),
 (66961,'27/08/2022',5432,'Avenida Sete de Setembro, 456',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202437),
 (66962,'28/08/2022',5609,'Rua das Rosas, 789',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202438),
 (66963,'29/08/2022',5610,'Rua dos Ipes, 789',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202439),
@@ -779,11 +779,11 @@ INSERT INTO ENTREGAS VALUES
 (66973,'08/09/2022',8765,'Rua das Hortensias, 123',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202449),
 (66974,'09/09/2022',9802,'Rua das Oliveiras, 345',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202450),
 (66975,'10/09/2022',9870,'Rua das Tulipas, 789',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202451),
-(66976,'11/09/2022',9876,'Rua das Margaridas, 123',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202452),
+(66976,'11/09/2022',9876,'Rua das Margaridas, 123',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202452),
 (66977,'12/09/2022',1234,'Rua das Palmeiras, 567',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202453),
 (66978,'13/09/2022',1452,'Rua da Bahia, 456',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202454),
-(66979,'14/09/2022',1890,'Rua dos Lirios, 456',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202455),
-(66980,'15/09/2022',2198,'Rua das Margaridas, 456',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202456),
+(66979,'14/09/2022',1890,'Rua dos Lirios, 456',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202455),
+(66980,'15/09/2022',2198,'Rua das Margaridas, 456',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202456),
 (66981,'16/09/2022',2345,'Rua das Violetas, 789',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202457),
 (66982,'17/09/2022',3201,'Rua dos Jasmins, 678',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202458),
 (66983,'18/09/2022',3412,'Rua das Acacias, 678',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202459),
@@ -799,11 +799,11 @@ INSERT INTO ENTREGAS VALUES
 (66993,'28/09/2022',6780,'Avenida Ipanema, 678',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202469),
 (66994,'29/09/2022',6789,'Avenida Copacabana, 456',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202470),
 (66995,'30/09/2022',7012,'Rua das Flores, 123',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202471),
-(66996,'01/10/2022',7210,'Avenida Atlantica, 123',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202472),
+(66996,'01/10/2022',7210,'Avenida Atlantica, 123',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202472),
 (66997,'02/10/2022',7890,'Rua dos Cravos, 234',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202473),
 (66998,'03/10/2022',7896,'Rua das Palmas, 123',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202474),
-(66999,'04/10/2022',8265,'Rua das Orquideas, 123',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202475),
-(67000,'05/10/2022',8745,'Avenida Brasil, 789',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202476),
+(66999,'04/10/2022',8265,'Rua das Orquideas, 123',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202475),
+(67000,'05/10/2022',8745,'Avenida Brasil, 789',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202476),
 (67001,'06/10/2022',8765,'Rua das Hortensias, 123',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202477),
 (67002,'07/10/2022',9802,'Rua das Oliveiras, 345',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202478),
 (67003,'08/10/2022',9870,'Rua das Tulipas, 789',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202479),
@@ -819,11 +819,11 @@ INSERT INTO ENTREGAS VALUES
 (67013,'18/10/2022',3901,'Rua das Azaleias, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202489),
 (67014,'19/10/2022',4163,'Rua Joao Pessoa, 234',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202490),
 (67015,'20/10/2022',4567,'Avenida das Palmeiras, 678',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202491),
-(67016,'21/10/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202492),
+(67016,'21/10/2022',4823,'Avenida Beira-Mar, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202492),
 (67017,'22/10/2022',5432,'Avenida Sete de Setembro, 456',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202493),
 (67018,'23/10/2022',5609,'Rua das Rosas, 789',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202494),
-(67019,'24/10/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202495),
-(67020,'25/10/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202496),
+(67019,'24/10/2022',5610,'Rua dos Ipes, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202495),
+(67020,'25/10/2022',6543,'Rua dos Girassois, 789',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202496),
 (67021,'26/10/2022',6780,'Avenida Ipanema, 678',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202497),
 (67022,'27/10/2022',6789,'Avenida Copacabana, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202498),
 (67023,'28/10/2022',7012,'Rua das Flores, 123',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202499),
@@ -839,11 +839,11 @@ INSERT INTO ENTREGAS VALUES
 (67033,'07/11/2022',1234,'Rua das Palmeiras, 567',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202509),
 (67034,'08/11/2022',1452,'Rua da Bahia, 456',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202510),
 (67035,'09/11/2022',1890,'Rua dos Lirios, 456',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202511),
-(67036,'10/11/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202512),
+(67036,'10/11/2022',2198,'Rua das Margaridas, 456',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202512),
 (67037,'11/11/2022',2345,'Rua das Violetas, 789',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202513),
 (67038,'12/11/2022',3201,'Rua dos Jasmins, 678',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202514),
-(67039,'13/11/2022',3412,'Rua das Acacias, 678',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202515),
-(67040,'14/11/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202516),
+(67039,'13/11/2022',3412,'Rua das Acacias, 678',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202515),
+(67040,'14/11/2022',3456,'Rua das Azaleias, 234',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202516),
 (67041,'15/11/2022',3901,'Rua das Azaleias, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202517),
 (67042,'16/11/2022',4163,'Rua Joao Pessoa, 234',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202518),
 (67043,'17/11/2022',4567,'Avenida das Palmeiras, 678',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202519),
@@ -859,11 +859,11 @@ INSERT INTO ENTREGAS VALUES
 (67053,'27/11/2022',7890,'Rua dos Cravos, 234',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202529),
 (67054,'28/11/2022',7896,'Rua das Palmas, 123',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202530),
 (67055,'29/11/2022',8265,'Rua das Orquideas, 123',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202531),
-(67056,'30/11/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202532),
+(67056,'30/11/2022',8745,'Avenida Brasil, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202532),
 (67057,'01/12/2022',8765,'Rua das Hortensias, 123',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202533),
 (67058,'02/12/2022',9802,'Rua das Oliveiras, 345',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202534),
-(67059,'03/12/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202535),
-(67060,'04/12/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202536),
+(67059,'03/12/2022',9870,'Rua das Tulipas, 789',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202535),
+(67060,'04/12/2022',9876,'Rua das Margaridas, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202536),
 (67061,'05/12/2022',1234,'Rua das Palmeiras, 567',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202537),
 (67062,'06/12/2022',1452,'Rua da Bahia, 456',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202538),
 (67063,'07/12/2022',1890,'Rua dos Lirios, 456',1019,'Rua das Flores, 987','Madeira de Lei',8031,'Caminhao',202539),
@@ -879,11 +879,11 @@ INSERT INTO ENTREGAS VALUES
 (67073,'17/12/2022',5432,'Avenida Sete de Setembro, 456',1009,'Rua das Pedras, 321','Madeira',8031,'Caminhao',202549),
 (67074,'18/12/2022',5609,'Rua das Rosas, 789',1010,'Avenida das Arvores, 456','Vidro',9435,'Caminhao',202550),
 (67075,'19/12/2022',5610,'Rua dos Ipes, 789',1011,'Rua das Oliveiras, 987','Tijolo Furado',1027,'Van',202551),
-(67076,'20/12/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos GirassÛis, 123','Cimento Branco',1689,'Caminhonete',202552),
+(67076,'20/12/2022',6543,'Rua dos Girassois, 789',1012,'Avenida dos Girass√≥is, 123','Cimento Branco',1689,'Caminhonete',202552),
 (67077,'21/12/2022',6780,'Avenida Ipanema, 678',1013,'Rua das Palmeiras, 654','Areia Lavada',2083,'Caminhonete',202553),
 (67078,'22/12/2022',6789,'Avenida Copacabana, 456',1014,'Avenida das Flores, 789','Telha Esmaltada',3774,'Caminhao',202554),
-(67079,'23/12/2022',7012,'Rua das Flores, 123',1015,'Rua dos LÌrios, 321','Tinta AcrÌlica',5297,'Van',202555),
-(67080,'24/12/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac·cias, 987','Argamassa Colante',5671,'Caminhao',202556),
+(67079,'23/12/2022',7012,'Rua das Flores, 123',1015,'Rua dos L√≠rios, 321','Tinta Acr√≠lica',5297,'Van',202555),
+(67080,'24/12/2022',7210,'Avenida Atlantica, 123',1016,'Avenida das Ac√°cias, 987','Argamassa Colante',5671,'Caminhao',202556),
 (67081,'25/12/2022',7890,'Rua dos Cravos, 234',1017,'Rua das Pedras, 456','Prego Galvanizado',6235,'Caminhonete',202557),
 (67082,'26/12/2022',7896,'Rua das Palmas, 123',1018,'Avenida dos Pinheiros, 654','Ferro Galvanizado',7412,'Van',202558)
 
@@ -897,9 +897,9 @@ select * from entregas
 
 
 
--- CRIA«√O DE USU¡RIOS
+-- CRIA√á√ÉO DE USU√ÅRIOS
 
--- usu·rio administrador com todas as permissıes 
+-- usu√°rio administrador com todas as permiss√µes 
 USE [master]
 GO
 CREATE LOGIN [loja_admin] WITH PASSWORD=N'admin123', DEFAULT_DATABASE=[LOJA_CONSTRUCAO], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
@@ -920,7 +920,7 @@ GRANT ALL TO loja_admin
 EXEC sp_helprotect @username = 'loja_admin'
 
 
--- usurario 1 com permissıes de select, insert, update e delete. 
+-- usurario 1 com permiss√µes de select, insert, update e delete. 
 
 USE [master]
 GO
@@ -942,7 +942,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE TO usuario_1
 EXEC sp_helprotect @username = 'usuario_1'
 
 
--- usurario 2 somente com permiss„o de select 
+-- usurario 2 somente com permiss√£o de select 
 USE [master]
 GO
 CREATE LOGIN [usuario_2] WITH PASSWORD=N'usuario2', DEFAULT_DATABASE=[LOJA_CONSTRUCAO], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
@@ -965,7 +965,7 @@ EXEC sp_helprotect @username = 'usuario_2'
 
 -- VIEWS
 
--- view para vizualizaÁ„o dos dados dos clientes
+-- view para vizualiza√ß√£o dos dados dos clientes
 CREATE VIEW CONTATO_CLIENTES AS
 SELECT NOME,
        EMAIL, 
@@ -1016,9 +1016,9 @@ JOIN MOTORISTAS AS F
 
 SELECT * FROM RESUMO_ENTREGA
 
--- FUN«’ES
+-- FUN√á√ïES
 
--- FunÁ„o para calcular a idade do cliente
+-- Fun√ß√£o para calcular a idade do cliente
 CREATE FUNCTION IDADECLIENTE (@ID_CLIENTE INT)
 RETURNS INT
 AS
@@ -1033,12 +1033,12 @@ BEGIN
      RETURN @IDADE
 END
 
---testando com um id aleatÛrio da tabela CLIENTES
+--testando com um id aleat√≥rio da tabela CLIENTES
 SELECT dbo.IDADECLIENTE(3201) AS IDADE
 
 
 
--- FunÁ„o que calcula total de compras de um cliente
+-- Fun√ß√£o que calcula total de compras de um cliente
 CREATE FUNCTION VALORTOTAL (@ID_CLIENTE INT)
 RETURNS DECIMAL(10, 2)
 AS
@@ -1053,7 +1053,7 @@ BEGIN
      RETURN @VALOR_TOTAL
 END
 
--- testando a funÁ„o, exemplo:
+-- testando a fun√ß√£o, exemplo:
 DECLARE @ID_CLIENTE INT = 3901
 SELECT dbo.VALORTOTAL (@ID_CLIENTE) AS 'VALOR TOTAL DE COMPRAS'
 
@@ -1138,7 +1138,7 @@ EXEC NOVOFORNECEDOR
      @EMAIL = 'fornecedorteste@teste.com',
      @TELEFONE = '(00)0000-0000',
      @ENDERECO = 'rua teste 908',
-     @CIDADE = 'S„o Paulo',
+     @CIDADE = 'S√£o Paulo',
      @ESTADO = 'SP'
 
 SELECT * FROM FORNECEDORES WHERE ID_FORNECEDOR = 0000
@@ -1211,11 +1211,11 @@ BEGIN
 
 	  IF @CONTAGEM = 1
 
-	    SET @FRASE = '1 Registro excluÌdo com sucesso'
+	    SET @FRASE = '1 Registro exclu√≠do com sucesso'
 
 	  ELSE 
 	   
-	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros excluÌdos com sucesso')
+	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros exclu√≠dos com sucesso')
 	  
       
       PRINT @FRASE
@@ -1235,11 +1235,11 @@ BEGIN
 
 	  IF @CONTAGEM = 1
 
-	    SET @FRASE = '1 Registro excluÌdo com sucesso'
+	    SET @FRASE = '1 Registro exclu√≠do com sucesso'
 
 	  ELSE 
 	   
-	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros excluÌdos com sucesso')
+	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros exclu√≠dos com sucesso')
 	  
       
       PRINT @FRASE
@@ -1259,11 +1259,11 @@ BEGIN
 
 	  IF @CONTAGEM = 1
 
-	    SET @FRASE = '1 Registro excluÌdo com sucesso'
+	    SET @FRASE = '1 Registro exclu√≠do com sucesso'
 
 	  ELSE 
 	   
-	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros excluÌdos com sucesso')
+	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros exclu√≠dos com sucesso')
 	  
       
       PRINT @FRASE
@@ -1283,11 +1283,11 @@ BEGIN
 
 	  IF @CONTAGEM = 1
 
-	    SET @FRASE = '1 Registro excluÌdo com sucesso'
+	    SET @FRASE = '1 Registro exclu√≠do com sucesso'
 
 	  ELSE 
 	   
-	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros excluÌdos com sucesso')
+	    SET @FRASE = CONCAT(@CONTAGEM, ' Registros exclu√≠dos com sucesso')
 	  
       
       PRINT @FRASE
@@ -1327,7 +1327,7 @@ IF EXISTS (SELECT * FROM CLIENTES
 		   AND CIDADE = @CIDADE
 		   AND ESTADO = ESTADO)
 
-PRINT ('Registro j· existe na tabela')
+PRINT ('Registro j√° existe na tabela')
 ELSE
     INSERT INTO CLIENTES VALUES
 	(@ID_CLIENTE, @NOME, @CPF, @GENERO, @DATA_NASCIMENTO, @EMAIL, @TELEFONE, @ENDERECO, @CIDADE, @ESTADO)
@@ -1355,7 +1355,7 @@ IF EXISTS (SELECT * FROM FORNECEDORES
 		   AND CIDADE = @CIDADE
 		   AND ESTADO = @ESTADO)
 		
-PRINT ('Registro j· existe na tabela')
+PRINT ('Registro j√° existe na tabela')
 ELSE
     INSERT INTO FORNECEDORES VALUES
 	(@ID_FORNECEDOR, @NOME, @CNPJ, @EMAIL, @TELEFONE, @ENDERECO, @CIDADE, @ESTADO)
@@ -1383,7 +1383,7 @@ IF EXISTS (SELECT * FROM PRODUTOS
 		   AND VALOR = @VALOR)
 		  
 		
-PRINT ('Registro j· existe na tabela')
+PRINT ('Registro j√° existe na tabela')
 ELSE
     INSERT INTO PRODUTOS VALUES
 	(@ID_PRODUTO, @PRODUTO, @ID_FORNECEDOR, @PESO, @TAMANHO, @VALOR)
@@ -1409,13 +1409,13 @@ IF EXISTS (SELECT * FROM MOTORISTAS
 		   AND EMPRESA_ENTREGA = @EMPRESA_ENTREGA
 		   AND TIPO_VEICULO = @TIPO_VEICULO)
 		  		
-PRINT ('Registro j· existe na tabela')
+PRINT ('Registro j√° existe na tabela')
 ELSE
     INSERT INTO MOTORISTAS VALUES 
 	(@ID_MOTORISTA, @NOME, @TELEFONE, @CPF, @EMPRESA_ENTREGA, @TIPO_VEICULO)
 END
 
--- testando com registros que j· existem nas tabelas
+-- testando com registros que j√° existem nas tabelas
 
 -- tabela clientes
 INSERT INTO CLIENTES VALUES
@@ -1443,7 +1443,7 @@ SELECT * FROM MOTORISTAS WHERE NOME = 'Rafael Mendes'
 
 
 
--- criaÁ„o da tabela de auditoria para acompanhamento das modificaÁıes realizadas no DB (alter, create e drop)
+-- cria√ß√£o da tabela de auditoria para acompanhamento das modifica√ß√µes realizadas no DB (alter, create e drop)
 
 CREATE TABLE AUDITORIA (
 ID_AUDIT INT PRIMARY KEY IDENTITY,
@@ -1455,7 +1455,7 @@ NOME_OBJETO	SYSNAME NOT NULL,
 COMANDO	VARCHAR(MAX) NOT NULL,
 TABELA SYSNAME NULL)
 
--- criaÁ„o da trigger para tabela de auditoria
+-- cria√ß√£o da trigger para tabela de auditoria
 CREATE TRIGGER AUDIT_LOJA_CONSTRUCAO
 ON DATABASE
 FOR DDL_DATABASE_LEVEL_EVENTS
@@ -1489,7 +1489,7 @@ ESTADO VARCHAR(20),
 DROP TABLE TESTE_AUDITORIA
 SELECT * FROM AUDITORIA
 
--- criaÁ„o da tabela de auditoria para acompanhamento das modificaÁıes realizadas no DB (insert, delete, update)
+-- cria√ß√£o da tabela de auditoria para acompanhamento das modifica√ß√µes realizadas no DB (insert, delete, update)
 CREATE TABLE AUDITORIA_2 (
 ID INT IDENTITY(1,1) PRIMARY KEY,
 TABELA NVARCHAR(255),
@@ -1755,7 +1755,7 @@ SELECT * FROM AUDITORIA_2
 
 -- RELATORIOS
 
--- Valor total de vendas por mÍs
+-- Valor total de vendas por m√™s
 SELECT
     YEAR(DATA_PEDIDO) AS ANO,
     MONTH(DATA_PEDIDO) AS MES,
@@ -1782,7 +1782,7 @@ ORDER BY
     QUANTIDADE_VENDIDA DESC
 
 
--- Valor total de vendas por gÍnero
+-- Valor total de vendas por g√™nero
 SELECT
     B.GENERO,
     SUM(A.QTD_PRODUTO * C.VALOR) AS VALOR_TOTAL_VENDAS
@@ -1815,7 +1815,7 @@ GROUP BY
     END
 
 
--- Vendas por regi„o
+-- Vendas por regi√£o
 SELECT
     C.CIDADE AS REGIAO,
     SUM(P.QTD_PRODUTO * PR.VALOR) AS VALOR_TOTAL_VENDAS
@@ -1859,7 +1859,7 @@ BEGIN
         ELSE
         BEGIN
             ROLLBACK
-            PRINT 'Erro ao atualizar o valor do produto. Produto n„o encontrado.'
+            PRINT 'Erro ao atualizar o valor do produto. Produto n√£o encontrado.'
         END
     END TRY
     BEGIN CATCH
@@ -1868,7 +1868,7 @@ BEGIN
     END CATCH
 END
 	
--- testante mensagem de erro utilizando id n„o existente
+-- testante mensagem de erro utilizando id n√£o existente
 EXEC ATUALIZAR_VALOR_PRODUTO
      @ID_PRODUTO = 2021,
      @PRODUTO  = 'testando procedure tcl',
@@ -1887,7 +1887,7 @@ EXEC ATUALIZAR_VALOR_PRODUTO
      @VALOR = '77.77'
 
 
--- Comandos TCL em inserÁ„o de dados na tabela clientes
+-- Comandos TCL em inser√ß√£o de dados na tabela clientes
 
 BEGIN TRANSACTION
 
