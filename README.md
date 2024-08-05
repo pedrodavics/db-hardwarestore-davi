@@ -1,26 +1,13 @@
-# Sobre esse projeto
-## INTRODUÇÃO -
-A loja online de materiais de construção é um segmento crescente no comércio eletrônico,
-proporcionando conveniência e ampla variedade de produtos aos clientes. Nesse contexto, a utilização de
-um banco de dados eficiente se torna essencial para o gerenciamento das informações relacionadas aos
-clientes, fornecedores, produtos, entregas e pedidos.
+<div id="user-content-toc">
+  <ul align="center">
+    <summary><h1 style="display: inline-block">About this project</h1></summary>
+</div>
 
-## OBJETIVO -
-O objetivo deste projeto é criar um banco de dados relacional para uma loja de construção, permitindo a
-gestão de clientes, fornecedores, produtos, pedidos, entregas e motoristas. O banco de dados foi
-desenvolvido para atender às necessidades do negócio, possibilitando a realização de consultas e a
-geração de relatórios relevantes.
+## OBJECTIVE -
+The objective of this project is to create a relational database for a hardware store, allowing the management of customers, suppliers, products, orders, deliveries, and drivers. The database was developed to meet the business's needs, enabling the execution of queries and the generation of relevant reports.
 
-## MODELO DE NEGÓCIO -
-O modelo de negócio da loja de construção envolve a venda de produtos para clientes, que realizam
-pedidos de compra. Os produtos são fornecidos por diferentes fornecedores. Após a confirmação do
-pedido, as entregas são agendadas e realizadas pelos motoristas contratados. O banco de dados visa
-centralizar e organizar todas essas informações para facilitar o gerenciamento e a geração de relatórios.
+## BUSINESS MODEL -
+The business model of the hardware store involves selling products to customers, who place purchase orders. The products are supplied by different vendors. After the order is confirmed, deliveries are scheduled and carried out by hired drivers. The database aims to centralize and organize all this information to facilitate management and report generation.
 
-## SITUAÇÃO PROBLEMA -
-A loja enfrenta desafios relacionados ao gerenciamento eficiente das informações e à coordenação das
-entregas. A falta de um sistema de banco de dados estruturado pode resultar em dificuldades na
-organização das informações dos clientes, fornecedores, produtos, entregas e pedidos, bem como na
-comunicação entre os diferentes envolvidos no processo, como fornecedores e motoristas terceirizados. É
-fundamental solucionar essas questões para garantir o bom funcionamento, a satisfação dos clientes da
-loja e a capacidade de tomar decisões estratégicas com base em dados confiáveis.
+## PROBLEM SITUATION -
+The store faces challenges related to the efficient management of information and the coordination of deliveries. The lack of a structured database system can result in difficulties in organizing customer, supplier, product, delivery, and order information, as well as communication between the various parties involved in the process, such as suppliers and third-party drivers. Addressing these issues is crucial to ensuring the store's smooth operation, customer satisfaction, and the ability to make strategic decisions based on reliable data.
